@@ -1,0 +1,45 @@
+Paolo Tamagnini - 1536242
+Data Science - Algorithmic Methods of Data Mining
+Academic year 2015–2016 - November 15th 2015
+
+the screenshot shows multiple queries over really few documents
+
+my project has 3 files: Collect.py, Index.py and Search.py
+
+
+please place all of them in the same of folder and follow the instructions
+what to do on command line:
+
+1)	python Collect.py
+
+2)	select how many pages (starting from the first one) you want to 
+	download from: 
+  	'http://www.kijiji.it/case/vendita/roma-annunci-roma/'
+	you cannot download more than 1999 pages
+	just type the number of the last page that you want
+	and it will download every page from #1 until that one
+	
+3)	wait until it's done. 
+	it will create all the documents in the folder 'documents'
+
+4)	python Index.py
+
+5)	select the number of files you want to load from the folder 'documents'
+	it will start from the first one until the number you have chosen
+	to do that just type the number of the last document you want
+
+6)	wait him to create the files 'vocabulary.txt' and 'index.txt' in the folder 'index'
+	(I attached to the email also those same files computed over all the ads (almost 64k))
+	(if they were in the same folder index before this step it should override them)
+
+7)	python Search.py
+
+8)	type in your query and press enter
+
+9)	if the query doesn't give any result it will say: 'Your search - <WHAT YOU JUST TYPED> - did not match any documents.'
+	
+10)	it will display the results as agreed and tell you the number of found ads in the end
+
+please let me know for any incomprehension
+Paolo Tamagnini
+paolotamag@gmail.com
